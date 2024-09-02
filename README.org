@@ -1,0 +1,19 @@
+#+STARTUP: content
+#+TITLE: Word Searcher made for the INF01108 course
+
+This program was made for the final project of the "Arquitetura e Organização de Computadores 1" course.
+
+For you to run the program, the [[https://www.dosbox.com/][DOSBox Emulator]] and the [[https://github.com/rddtz/word-searcher/blob/main/en_masm611_one_disk.zip][MASM 6.11 Assembler]] will be needed.
+
+After you install and configurate the you will need to generate the object code and then link:
+#+begin_src asm
+  MASM CODE.ASM
+  LINK CODE.OBJ
+#+end_src
+
+Now you that you have created the executable program you can run it, you will need to pass a =.txt= file as argument:
+#+begin_src asm
+  CODE.EXE file.txt
+#+end_src
+The program then will ask for you what word you want to search and show the line the words appears and some context.
+
