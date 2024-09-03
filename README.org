@@ -15,5 +15,5 @@ Now you that you have created the executable program you can run it, you will ne
 #+begin_src asm
   CODE.EXE file.txt
 #+end_src
-The program then will ask for you what word you want to search and show the line the words appears and some context.
+The program then will ask for you what word you want to search and show the line where the words appears and some context.
 
